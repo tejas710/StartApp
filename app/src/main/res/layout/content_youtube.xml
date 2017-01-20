@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollview_youtube"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent"  tools:context="com.example.dell.startapp.youtube" android:orientation="vertical">
+
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+            android:text=""
+            android:layout_marginBottom="20dp"
+            android:id="@+id/video1"
+            android:background="@drawable/video1"
+            android:height="50dp"
+            />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+            android:text=""
+            android:layout_marginBottom="20dp"
+            android:id="@+id/video2"
+            android:background="@drawable/video2"
+            android:height="100dp"
+            />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+            android:text=""
+            android:layout_marginBottom="20dp"
+            android:id="@+id/video3"
+            android:background="@drawable/video3"
+            android:height="100dp"
+            />
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+            android:text=""
+            android:layout_marginBottom="20dp"
+            android:id="@+id/video4"
+            android:background="@drawable/video4"
+            android:height="100dp"
+            />
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+            android:text=""
+            android:layout_marginBottom="20dp"
+            android:id="@+id/video5"
+            android:background="@drawable/video5"
+            android:height="100dp"
+            />
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+            android:text=""
+            android:layout_marginBottom="20dp"
+            android:id="@+id/video6"
+            android:background="@drawable/video6"
+            android:height="100dp"
+            />
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+            android:text=""
+            android:layout_marginBottom="20dp"
+            android:id="@+id/video7"
+            android:background="@drawable/video7"
+            android:height="100dp"
+            />
+    </LinearLayout>
+</ScrollView>

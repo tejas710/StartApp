@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_info_dcei"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.dell.startapp.infoDcei"
+    tools:showIn="@layout/app_bar_info_dcei">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <Button
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/dceipramotional"
+            android:id="@+id/information_dcei_video"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:text="DCEI : DA-IICT Centre for Entrepreneurship and Incubation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/information_dcei_video"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView2"
+            android:textAllCaps="true"
+            android:textColor="@color/font"
+            android:textAlignment="gravity"
+            />
+
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Established in 2011 at DAIICT, Gandhinagar to promote innovation and entrepreneurship culture among DAIICT community. This has resulted in seven incubates out of which one is started by faculties and students together. On 15th august, 2015 Hon’ Prime Minister held a campaign for all the young Indians, for innovation and entrepreneurship to boost up start up culture. Gujarat is already known for business savvy state and DAIICT is already a leader in Information and Communication Technology in India."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+
+
+            android:id="@+id/textView3"
+
+            android:textColor="@color/font"
+            />
+            <TextView
+                android:text="We receive several expression of interest from various parts of India and abroad. ICT plays an important role in the start-up ecosystem in different sectors of business such as finance, e-commerce, synthetic biology, AI, robotics, e-governance etc. Currently in India there are many start-ups, however, only few are innovation based. DA-IICT has strength in research and innovation in interdisciplinary areas, thus it is a natural enabler for economic growth of both Gujarat as well as India.We would like to collaborate with research Universities and incubators by promoting start-ups of faculties and students. There is no better place than DA-IICT to inculcate innovation in high school students, where we plan to invite top notch researchers/innovators/businessmen to DA-IICT to share their knowledge and experience to curious minds.DCEI is supported by DeitY, Government of India and Government of Gujarat. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView2"
+                android:layout_centerHorizontal="true"
+                android:gravity="left|right"
+                android:id="@+id/textView4"
+                android:textColor="@color/font"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

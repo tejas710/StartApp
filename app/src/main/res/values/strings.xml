@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">StartApp</string>
+    <string name="title_activity_information">Information</string>
+    <string name="title_activity_info_dcei">infoDcei</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">register</string>
+    <string name="title_activity_login">login</string>
+
+    <string name="title_activity_events">Event</string>
+    <string name="title_activity_blogs">Blogs</string>
+    <string name="title_activity_event_detail">eventDetail</string>
+    <string name="title_activity_blogdetail">Blogdetail</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
